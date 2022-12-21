@@ -3,8 +3,8 @@
 1. Build the docker image, and push
    ```shell
    make image
-   # Privilege requried
-   docker push quay.io/numaio/simplesink-example:python
+   # Privilege required
+   docker push quay.io/numaio/numaflow-python/sink-log:latest
    ```
 
 2. Apply the pipeline

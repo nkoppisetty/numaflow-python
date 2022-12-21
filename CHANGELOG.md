@@ -1,5 +1,41 @@
 # Changelog
 
+## v0.3.2 (2022-12-21)
+
+ * [a650aac](https://github.com/numaproj/numaflow-python/commit/a650aacf86b5d18f8f84ba75be2b9adf3e6dacdc) fix: time unit bug/dockerfile/add a guide (#44)
+
+### Contributors
+
+ * Juanlu Yu
+
+## v0.3.1 (2022-12-20)
+
+ * [d33ddd0](https://github.com/numaproj/numaflow-python/commit/d33ddd0ccb6725b711c16f8a744e027767c26c1d) feat: udf reduce (#40)
+
+### Contributors
+
+ * Juanlu Yu
+
+## v0.3.0 (2022-12-15)
+
+ * [e717b1b](https://github.com/numaproj/numaflow-python/commit/e717b1ba5ecda7fde218177d2f78fa550cd8305f) feat: udsink gRPC stream (#34)
+ * [ad55710](https://github.com/numaproj/numaflow-python/commit/ad5571052b3857377d7b920c6fe0bf89fdb76c58) fix: .flake8 file (#35)
+
+### Contributors
+
+ * Avik Basu
+ * Juanlu Yu
+
+## v0.2.6 (2022-11-22)
+
+ * [0fbecc1](https://github.com/numaproj/numaflow-python/commit/0fbecc13a2ae48636d5454664b072534b02160a0) feat: introduces sync gRPC server  (#27)
+ * [b6a4bc0](https://github.com/numaproj/numaflow-python/commit/b6a4bc009035d52dd177079808c708b925fcfc3f) feat: add support to configure max message size (#23)
+
+### Contributors
+
+ * Avik Basu
+ * Juanlu Yu
+
 ## v0.2.5 (2022-10-31)
 
  * [97b410e](https://github.com/numaproj/numaflow-python/commit/97b410ecc09a52ca668e1c265f4b73822151ba49) fix: catch exception in udf and udsink (#18)

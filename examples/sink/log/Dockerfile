@@ -34,9 +34,9 @@ RUN apt-get update \
     && curl -sSL https://install.python-poetry.org | python3 -
 
 ####################################################################################################
-# udf: used for running the udf vertices
+# udsink: used for running the udsink vertices
 ####################################################################################################
-FROM builder AS udf
+FROM builder AS udsink
 
 WORKDIR $PYSETUP_PATH
 COPY ./pyproject.toml ./
